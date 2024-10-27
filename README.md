@@ -8,7 +8,7 @@ This repository includes scripts for updating [Picotron](https://www.lexaloffle.
 
 ## Usage:
 ```bash
-➜  picotron_updates git:(main) ./picotron_update.sh 
+➜  Picotron-Updater git:(main) ./picotron_update.sh 
 This script needs your login credentials to https://www.lexaloffle.com/ to install updates.
 Enter username: your_username
 Enter password: your_password 
@@ -18,14 +18,14 @@ Updating Picotron.
 ```
 
 ``` bash
-➜  picotron_updates git:(main) ./picotron.sh 
+➜  Picotron-Updater git:(main) ./picotron.sh 
 Latest Picotron Version: x.x.x
 No Picotron updates are available.
 Starting Picotron!
 ```
 
 ``` bash
-➜  picotron_updates git:(main) ./generate_desktop_entry.sh 
+➜  Picotron-Updater git:(main) ./generate_desktop_entry.sh 
 Created Picotron.desktop.
 Added Picotron.desktop entry to applications list.
 ```
