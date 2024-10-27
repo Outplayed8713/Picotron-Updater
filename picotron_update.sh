@@ -41,6 +41,11 @@ CheckForUpdates() {
   fi
   zip_url="https://www.lexaloffle.com$(curl -s -b "$dir/cookies.txt" "https://www.lexaloffle.com/games.php?page=updates" | grep "picotron.*amd64" | cut -d = -f 2 | cut -d ">" -f 1)"
   latest_version="$(echo $zip_url | cut -d _ -f2 | tr -d ' ')"
+  if [[ $zip_url == "https://www.lexaloffle.com" ]]; then
+    echo "Cannot get the latest Picotron version."
+    echo "Check your internet and the credentials in your config file."
+    exit
+  fi
   echo "Latest Picotron Version: $latest_version"
   if [[ "$latest_version" != "$local_version" ]]; then
     echo "Updating Picotron."
