@@ -15,11 +15,8 @@ Name=Picotron
 # A comment which can/will be used as a tooltip
 Comment=Virtual Workstation OS
 
-# The path to the folder in which the executable is run
-Path=$dir
-
 # The executable of the application, possibly with arguments.
-Exec=picotron.sh
+Exec=$dir/picotron.sh
 
 # The name of the icon that will be used to display this entry
 Icon=lexaloffle-picotron
