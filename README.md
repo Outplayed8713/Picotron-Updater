@@ -29,4 +29,5 @@ Starting Picotron!
 Created Picotron.desktop.
 Added Picotron.desktop entry to applications list.
 ```
-
+## Warning:
+These scripts require your lexaloffle account credentials to download the latest version of Picotron. The script will prompt for your credentials and will store them in a plaintext file on your computer. The script sets the file permission to 600, so only your user can read and write to this file, but be aware that your account password could be easily exposed in the event your system is compromised.
