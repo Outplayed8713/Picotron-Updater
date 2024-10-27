@@ -1,5 +1,5 @@
 # Automatic Picotron Updates for Linux
-This repository includes scripts for updating Picotron for Linux.
+This repository includes scripts for updating [Picotron](https://www.lexaloffle.com/picotron.php) for Linux.
 
 ## Included Scripts:
 1. **picotron_update.sh:** Downloads and extracts latest version of Picotron if there are new updates.
